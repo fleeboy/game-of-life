@@ -54,10 +54,31 @@ class GameScene: SKScene {
         
         let microscope = SKSpriteNode(imageNamed: "microscope.png")
         microscope.position = CGPoint(x: 79, y: 70)
-        microscope.setScale(0.5)
+        microscope.setScale(0.4)
         self.addChild(microscope)
         
-        
+        // dark green labels to keep track of number of living tiles
+        // and number of steps the simulation has gone through
+        _populationLabel.position = CGPoint(x: 79, y: 190)
+        _populationLabel.fontName = "Courier"
+        _populationLabel.fontSize = 12
+        _populationLabel.fontColor = UIColor(red: 0, green: 0.2, blue: 0, alpha: 1)
+        self.addChild(_populationLabel)
+        _generationLabel.position = CGPoint(x: 79, y: 160)
+        _generationLabel.fontName = "Courier"
+        _generationLabel.fontSize = 12
+        _generationLabel.fontColor = UIColor(red: 0, green: 0.2, blue: 0, alpha: 1)
+        self.addChild(_generationLabel)
+        _populationValueLabel.position = CGPoint(x: 79, y: 175)
+        _populationValueLabel.fontName = "Courier"
+        _populationValueLabel.fontSize = 12
+        _populationValueLabel.fontColor = UIColor(red: 0, green: 0.2, blue: 0, alpha: 1)
+        self.addChild(_populationValueLabel)
+        _generationValueLabel.position = CGPoint(x: 79, y: 145)
+        _generationValueLabel.fontName = "Courier"
+        _generationValueLabel.fontSize = 12
+        _generationValueLabel.fontColor = UIColor(red: 0, green: 0.2, blue: 0, alpha: 1)
+        self.addChild(_generationValueLabel)
         
     }
     
