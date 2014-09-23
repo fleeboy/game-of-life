@@ -26,6 +26,7 @@
 		B6C099DA19CA998E00079C37 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C099CF19CA998E00079C37 /* pause.png */; };
 		B6C099DB19CA998E00079C37 /* play-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C099D019CA998E00079C37 /* play-pressed.png */; };
 		B6C099DC19CA998E00079C37 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C099D119CA998E00079C37 /* play.png */; };
+		B6C5DAD719D131950012B4BD /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C5DAD619D131950012B4BD /* Tile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		B6C099CF19CA998E00079C37 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
 		B6C099D019CA998E00079C37 /* play-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-pressed.png"; sourceTree = "<group>"; };
 		B6C099D119CA998E00079C37 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		B6C5DAD619D131950012B4BD /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B6C099A019CA984000079C37 /* AppDelegate.swift */,
 				B6C099A219CA984000079C37 /* GameScene.sks */,
 				B6C099A419CA984000079C37 /* GameScene.swift */,
+				B6C5DAD619D131950012B4BD /* Tile.swift */,
 				B6C099C419CA998E00079C37 /* Assets */,
 				B6C099C919CA998E00079C37 /* BackgroundImage */,
 				B6C099CB19CA998E00079C37 /* Buttons */,
@@ -293,6 +296,7 @@
 				B6C099A519CA984000079C37 /* GameScene.swift in Sources */,
 				B6C099A719CA984000079C37 /* GameViewController.swift in Sources */,
 				B6C099A119CA984000079C37 /* AppDelegate.swift in Sources */,
+				B6C5DAD719D131950012B4BD /* Tile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				B6C099C019CA984000079C37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6C099C119CA984000079C37 /* Build configuration list for PBXNativeTarget "Game of LifeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				B6C099C319CA984000079C37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
